@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Document</title>
     <link rel="stylesheet" href="./sources/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./sources/css/style.css">
 </head>
 
-<body style="background-color: #d3d3d3;">
-    <nav class="navbar navbar-expand-lg bg-body-primary bg-primary">
+<body>
+    <nav class="navbar fixed-top navbar-expand-lg bg-body-primary bg-primary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Logo" width="30" height="24"
@@ -21,10 +22,10 @@
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Inicio</a>
+                        <a class="nav-link" href="#apps">Apps</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contenido</a>
+                        <a class="nav-link" href="#carrera_en_linea">Carreras en línea</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contacto</a>
@@ -34,7 +35,7 @@
         </div>
     </nav>
     <div class="container">
-        <div class="p-5 mb-4 border bg-light rounded-3">
+        <div class="mt-4 p-5 mb-4 border bg-light rounded-3">
             <div class="container-fluid py-5">
                 <h1 class="display-5 fw-bold">weebly</h1>
                 <p class="col-md-8 fs-4">Es el primer curso de la carrera de Licenciatura en Gerencia de Negocios y
@@ -43,51 +44,117 @@
             </div>
         </div>
     </div>
-
-
     <div class="container">
-        <div class="row">
-            <div class="col-sm-12"></div>
-            <div class="col-sm-4">
+        <div class="row pb-5">
+            <div class="col-sm-12">
+                <h2 class="fw-bold text-center m-5 fs-1">Información importante de la carrera</h2>
+            </div>
+            <div class="col-sm-4 d-flex align-items-stretch">
                 <div class="card bg-light">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./sources/img/administracion.jpg" class="card-img-top" alt="Información de la carrera">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <a
-                            href="https://www.galileo.edu/facti/historias-de-exito/ventajas-de-estudiar-gerencia-de-negocios/">
-                            Ventajas de estudiar gerencia de negocios y servicios
-                        </a>
+                        <h5 class="card-title"><a
+                                href="https://www.galileo.edu/facti/carrera/licenciatura-gerencia-negocios-servicios/"
+                                target="_blank">
+                                Información de la carrera
+                            </a></h5>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 d-flex align-items-stretch">
                 <div class="card bg-light">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./sources/img/FACTICONGANAS.jpg" class="card-img-top" alt="FACTI">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <a
-                            href="https://www.galileo.edu/facti/historias-de-exito/ventajas-de-estudiar-gerencia-de-negocios/">
-                            Ventajas de estudiar gerencia de negocios y servicios
-                        </a>
+                        <h5 class="card-title"><a href="https://www.galileo.edu/facti/" target="_blank">
+                                Información sobre la Facultad de Tecnología
+                            </a></h5>
                     </div>
                 </div>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 d-flex align-items-stretch">
                 <div class="card bg-light">
-                    <img src="..." class="card-img-top" alt="...">
+                    <img src="./sources/img/ventajas.jpg" class="card-img-top"
+                        alt="Ventajas de estudiar gerencia degocios de negocios y servicios">
                     <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <a
-                            href="https://www.galileo.edu/facti/historias-de-exito/ventajas-de-estudiar-gerencia-de-negocios/">
-                            Ventajas de estudiar gerencia de negocios y servicios
-                        </a>
+                        <h5 class="card-title"><a
+                                href="https://www.galileo.edu/facti/historias-de-exito/ventajas-de-estudiar-gerencia-de-negocios/"
+                                target="_blank">
+                                Ventajas de estudiar gerencia de negocios y servicios
+                            </a></h5>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-
-    
+    <div class="container-fluid download-apps" id="apps" style="height: 100vh;">
+        <div class="container">
+            <div class="row">
+                <div class="mt-5 col-sm-6 offset-sm-6  d-flex align-items-stretch justify-content-end text-center">
+                    <h2 class="title-apps">Descarga las apps que te ayudarán durante tu carrera</h2>
+                </div>
+                <div class="col-sm-6 offset-sm-6  d-flex align-items-stretch justify-content-center">
+                    <div class="p-5">
+                        <div class="card-body text-center">
+                            <img src="./sources/img/logoUniversidadGalileoApp.jpg" alt="" width="100px" height="auto"
+                                class="rounded-circle">
+                            <h5 class="card-title mb-2 subtitle-apps">Universidad Galileo</h5>
+                            <a href="https://play.google.com/store/apps/details?id=edu.galileo.ges&hl=es_UY&pli=1"
+                                target="_blank">
+                                <img src="./sources/img/playstore.png" alt="" width="150px" height="auto">
+                            </a>
+                            <a href="https://apps.apple.com/gt/app/universidad-galileo/id953610043" target="_blank">
+                                <img src="./sources/img/logoappstore.jpg" alt="" width="150px" height="44px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 offset-sm-6  d-flex align-items-stretch justify-content-center">
+                    <div class="p-5">
+                        <div class="card-body text-center">
+                            <img src="./sources/img/logoEstudiantesGalileoApp.jpg" alt="" width="100px" height="auto"
+                                class="rounded-circle">
+                            <h5 class="card-title mb-2 subtitle-apps">Estudiantes Galileo</h5>
+                            <a href="https://play.google.com/store/apps/details?id=edu.galileo.ges&hl=es_UY&pli=1"
+                                target="_blank">
+                                <img src="./sources/img/playstore.png" alt="" width="150px" height="auto">
+                            </a>
+                            <a href="https://apps.apple.com/gt/app/estudiantes-galileo/id902531719" target="_blank">
+                                <img src="./sources/img/logoappstore.jpg" alt="" width="150px" height="44px">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container" id="carrera_en_linea" style="height: 100vh;">
+        <div class="row">
+            <div class="col-sm-12 text-center mt-5 mb-5">
+                <h2 class="fw-bold text-center m-5 fs-1">¿Cómo se estudia una carrera en línea en la Universidad Galileo?</h2>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/jUzIQedyUZc?si=8J1qML62EVH8Gb6z"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <h2 class="fw-bold text-center m-5 fs-1">¿Cómo llegar a la Universidad Galileo?</h2>
+        </div>
+    </div>
+    <div class="container-fluid location-galileo">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15443.269710237093!2d-90.5056645!3d14.609474!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8589a3b512ee9afb%3A0xc8255d5feb146d4a!2sUniversidad%20Galileo!5e0!3m2!1ses!2sgt!4v1707318218846!5m2!1ses!2sgt"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="./sources/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 

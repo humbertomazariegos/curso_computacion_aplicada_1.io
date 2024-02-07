@@ -1,0 +1,23 @@
+.download-apps{
+    background-image: url("../img/fondoApps.jpg");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-attachment: fixed;
+}
+h2.title-apps{
+    background: rgba(66,66,66,.5);
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+}
+.subtitle-apps{
+    background: rgba(66,66,66,.5);
+    padding: 10px;
+    border-radius: 15px;
+    color: #fff;
+}
+.location-galileo{
+    background-image: url("../img/universidad.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
